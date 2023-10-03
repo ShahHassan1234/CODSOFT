@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+
+.header {
+  background: rgb(212, 97, 14);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 97, 14, 1) 30%,
+    rgba(164, 38, 187, 1) 100%
+  );
+  padding: 0 8rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header div{
+    display: flex;
+}
+
+.social-icons span{
+    padding: 0 0.5rem;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.h-contact {
+    align-items: center;
+}
+
+.h-contact p{
+    padding: 0 0.7rem;
+    align-items: center;
+}
+
+.h-contact p:first-child{
+    border-right: 1px solid white;
+}
+
+.btn{
+    padding: 10px 0;
+}
+
+.btn button{
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+.n-logo h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.n-pages a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.n-pages .fa-angle-down {
+    transform: translateY(3px);
+}
+
+.n-search{
+    background: black;
+    color: white;
+    padding: 22px 5px;
+    cursor: pointer;
+}
+
+/* Banner */
+
+.banner{
+    padding: 10rem 8rem;
+    background-image: url(imgs/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.banner h2, h1{
+    text-transform: uppercase;
+}
+
+.hero-btns{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.hero-btns button{ 
+    margin-right: 15px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.hero-btns .l-btn{
+    background: rgb(212, 97, 14);
+    background: linear-gradient(
+      90deg,
+      rgba(212, 97, 14, 1) 30%,
+      rgba(164, 38, 187, 1) 100%
+    );
+}
+
+/* Services */
+
+.services{
+    background: rgb(212, 97, 14);
+    background: linear-gradient(
+      90deg,
+      rgba(212, 97, 14, 1) 30%,
+      rgba(164, 38, 187, 1) 100%
+    );
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+}
+.services .s-info{
+    width: 340px;
+}
+
+.s-top{
+    display: flex;
+    align-items: center;
+}
+
+.s-top span{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.s-top h3{
+    text-transform: uppercase;
+}
+
+/* About */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+.about-left{
+    width: 60%;
+}
+
+.about-right{
+    width: 30%;
+}
+
+.about-left h2{
+    text-transform: uppercase;
+}
+
+.about-left h2::after {
+    content: "";
+    display: block;
+    background: rgb(212, 97, 14);
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.about-btn{
+    cursor: pointer;
+    background: rgb(212, 97, 14);
+    background: linear-gradient(
+      90deg,
+      rgba(212, 97, 14, 1) 30%,
+      rgba(164, 38, 187, 1) 100%
+    );
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    outline: none;
+}
+
+
+.about .about-right img{
+    width: 100%;
+    height: 90%;
+}
+
+/* Footer */
+
+.footer{
+    padding: 2rem 8rem;
+    background: rgb(224, 219, 219);
+}
+
+.footer h2{
+    text-transform: uppercase;
+}
+
+.footer-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer h2::after {
+    content: "";
+    display: block;
+    background: rgb(212, 97, 14);
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.footer-card{
+    width: 32%;
+}
+
+.footer-card img{
+    width: 100%;
+    height: 80%;
+}
+
+.f-card-caption{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    float: right;
+    position: relative;
+    top: -35px;
+    border-radius: 5px;
+}
+
+.f-card-caption span{
+    background: rgb(212, 97, 14);
+    background: linear-gradient(
+      90deg,
+      rgba(212, 97, 14, 1) 30%,
+      rgba(164, 38, 187, 1) 100%
+    );
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 10px;
+    position: relative;
+    left: -20px;
+}
+
+
+.f-card-caption span i{
+    font-size: 20px;
+}
+
+.f-card-caption.last{
+    position: relative;
+    top: 200px;
+}
